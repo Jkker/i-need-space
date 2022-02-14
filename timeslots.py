@@ -118,11 +118,11 @@ if __name__ == '__main__':
     print('Found', len(availabilities.keys()), 'locations')
     filename = args.filepath.split("/")[-1]
     if args.save:
-        save_filename = f'Schedule for {filename}'
+        save_filename = f'out/Schedule for {filename}'
         with open(save_filename, 'w') as f:
             json.dump(schedule, f, indent=2)
             print(f'Saved "{save_filename}"')
-    output_filename = args.output or f'Slots for {filename}'
+    output_filename = args.output or f'out/Slots for {filename}'
     with open(output_filename, 'w') as f:
         json.dump(availabilities, f, indent=2)
         print(f'Saved "{output_filename}"')
