@@ -33,9 +33,9 @@ def add_to_schedule(schedule, location, meetings):
     if meetings and not (building in INVALID_LOCATIONS):
         for meeting in meetings:
             weekday, start, end = parse_meeting(meeting)
-            schedule[building][room][weekday] = [
-                *schedule[building][room][weekday], (start, end)
-            ] if schedule[building][room].get(weekday) else [(start, end)]
+            if not schedule[building][room].get(weekday):
+                schedule[building][room][weekday] = set()
+            schedule[building][room][weekday].add((start, end))
 
 
 def create_schedule(data):
@@ -55,14 +55,15 @@ def create_schedule(data):
 
 
 def get_time_slots(times, start="08:00", end="22:00"):
-    sorted_times = sorted(times, key=lambda x: x[0])
     time_slots = []
-    if start < sorted_times[0][0]:
-        time_slots.append((start, sorted_times[0][0]))
-    for i in range(len(sorted_times) - 1):
-        time_slots.append((sorted_times[i][1], sorted_times[i + 1][0]))
-    if end > sorted_times[-1][1]:
-        time_slots.append((sorted_times[-1][1], end))
+    if start < times[0][0]:
+        time_slots.append((start, times[0][0]))
+    if len(times) > 1:
+        for i in range(len(times) - 1):
+            if times[i][1] < times[i + 1][0]:
+                time_slots.append((times[i][1], times[i + 1][0]))
+    if end > times[-1][1]:
+        time_slots.append((times[-1][1], end))
     return time_slots
 
 
@@ -73,12 +74,12 @@ def main(filepath, start="08:00", end="22:00"):
         availabilities = recursively_default_dict()
         for building in sorted(schedule.keys()):
             rooms = schedule[building]
-            # for building, rooms in schedule.items():
             for room in sorted(rooms.keys()):
                 week = rooms[room]
-                # for room, week in rooms.items():
                 for weekday in range(7):
                     if weekday in week:
+                        week[weekday] = sorted(list(week[weekday]),
+                                               key=lambda x: x[0])
                         time_slots = get_time_slots(week[weekday], start, end)
                     else:
                         time_slots = [(start, end)]
@@ -88,7 +89,6 @@ def main(filepath, start="08:00", end="22:00"):
 
 # filter by length of time
 # filter by location
-
 # find closest spaces at given time
 
 if __name__ == '__main__':
