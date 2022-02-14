@@ -54,20 +54,33 @@ def create_schedule(data):
     return schedule
 
 
-def get_time_slots(times, start="08:00", end="22:00"):
+def add_valid_timeslot(time_slots, start, end, min_duration):
+    s = int(start.replace(':', ''))
+    e = int(end.replace(':', ''))
+    if s > e: return
+    if e - s <= min_duration: return
+    time_slots.append((start, end))
+
+
+# TODO: fix time slot errors
+def get_time_slots(times, start, end, min_duration):
     time_slots = []
     if start < times[0][0]:
-        time_slots.append((start, times[0][0]))
+        add_valid_timeslot(time_slots, start, times[0][0], min_duration)
+        # time_slots.append((start, times[0][0]))
     if len(times) > 1:
         for i in range(len(times) - 1):
-            if times[i][1] < times[i + 1][0]:
-                time_slots.append((times[i][1], times[i + 1][0]))
+            add_valid_timeslot(time_slots, times[i][1], times[i + 1][0],
+                               min_duration)
+            # if times[i][1] < times[i + 1][0]:
+            # time_slots.append((times[i][1], times[i + 1][0]))
     if end > times[-1][1]:
-        time_slots.append((times[-1][1], end))
+        add_valid_timeslot(time_slots, times[-1][1], end, min_duration)
+        # time_slots.append((times[-1][1], end))
     return time_slots
 
 
-def main(filepath, start="08:00", end="22:00"):
+def main(filepath, start="08:00", end="22:00", min_duration=15):
     with open(filepath) as data_file:
         data = json.load(data_file)
         schedule = create_schedule(data)
@@ -80,16 +93,17 @@ def main(filepath, start="08:00", end="22:00"):
                     if weekday in week:
                         week[weekday] = sorted(list(week[weekday]),
                                                key=lambda x: x[0])
-                        time_slots = get_time_slots(week[weekday], start, end)
+                        time_slots = get_time_slots(week[weekday], start, end,
+                                                    min_duration)
                     else:
                         time_slots = [(start, end)]
                     availabilities[building][room][weekday] = time_slots
         return schedule, availabilities
 
 
-# filter by length of time
-# filter by location
-# find closest spaces at given time
+# TODO: filter by length of time
+# TODO: filter by location
+# TODO: find closest spaces at given time
 
 if __name__ == '__main__':
     parser = ArgumentParser()
@@ -99,6 +113,11 @@ if __name__ == '__main__':
                         default=('08:00', '22:00'),
                         nargs=2,
                         help='start time')
+    parser.add_argument('-m', '--min-duration',
+                        dest='min_duration',
+                        default=15,
+                        type=int,
+                        help='minimum duration for time slots')
     parser.add_argument('-s',
                         '--save',
                         dest='save',
@@ -113,7 +132,7 @@ if __name__ == '__main__':
 
     schedule, availabilities = main(filepath=args.filepath,
                                     start=args.time[0],
-                                    end=args.time[1])
+                                    end=args.time[1], min_duration=args.min_duration)
 
     print('Found', len(availabilities.keys()), 'locations')
     filename = args.filepath.split("/")[-1]
