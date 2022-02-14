@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 from argparse import ArgumentParser
 
-INVALID_LOCATIONS = ['No', 'TBA', 'Online']
+INVALID_LOCATIONS = ['No', 'TBA', 'Online', 'Off']
 
 
 def recursively_default_dict():
