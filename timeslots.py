@@ -3,8 +3,12 @@ import re
 from datetime import datetime, timedelta
 from collections import defaultdict
 from argparse import ArgumentParser
+from locations import building_normalizer
 
-INVALID_LOCATIONS = ['No', 'TBA', 'Online', 'Off']
+
+INVALID_LOCATIONS = ['No', 'TBA', 'Online', 'Off', 'To Be Arranged']
+
+normalize_building = building_normalizer()
 
 
 def recursively_default_dict():
@@ -24,6 +28,7 @@ def parse_location(location):
                         location,
                         flags=re.IGNORECASE)
     building = loc_list[0].split('-')[0].replace('Bldg:', '').strip()
+    building = normalize_building(building)
     room = loc_list[-1].strip()
     return building, room
 
@@ -67,16 +72,12 @@ def get_time_slots(times, start, end, min_duration):
     time_slots = []
     if start < times[0][0]:
         add_valid_timeslot(time_slots, start, times[0][0], min_duration)
-        # time_slots.append((start, times[0][0]))
     if len(times) > 1:
         for i in range(len(times) - 1):
             add_valid_timeslot(time_slots, times[i][1], times[i + 1][0],
                                min_duration)
-            # if times[i][1] < times[i + 1][0]:
-            # time_slots.append((times[i][1], times[i + 1][0]))
     if end > times[-1][1]:
         add_valid_timeslot(time_slots, times[-1][1], end, min_duration)
-        # time_slots.append((times[-1][1], end))
     return time_slots
 
 
@@ -130,9 +131,12 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
+
+
     schedule, availabilities = main(filepath=args.filepath,
                                     start=args.time[0],
-                                    end=args.time[1], min_duration=args.min_duration)
+                                    end=args.time[1],
+                                    min_duration=args.min_duration)
 
     print('Found', len(availabilities.keys()), 'locations')
     filename = args.filepath.split("/")[-1]
