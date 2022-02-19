@@ -5,7 +5,6 @@ from collections import defaultdict
 from argparse import ArgumentParser
 from locations import building_normalizer
 
-
 INVALID_LOCATIONS = ['No', 'TBA', 'Online', 'Off', 'To Be Arranged']
 
 normalize_building = building_normalizer()
@@ -60,10 +59,13 @@ def create_schedule(data):
 
 
 def add_valid_timeslot(time_slots, start, end, min_duration):
-    s = int(start.replace(':', ''))
-    e = int(end.replace(':', ''))
-    if s > e: return
-    if e - s <= min_duration: return
+    s = start.split(':')
+    e = end.split(':')
+    diff = (int(e[0]) - int(s[0])) * 60 + (int(e[1]) - int(s[1]))
+    if diff < 0: return
+    if diff <= min_duration:
+        print("Warning: invalid time slot:", start, end)
+        return
     time_slots.append((start, end))
 
 
@@ -102,6 +104,34 @@ def main(filepath, start="08:00", end="22:00", min_duration=15):
         return schedule, availabilities
 
 
+weekday_map = {0: 'MO', 1: 'TU', 2: 'WE', 3: 'TH', 4: 'FR', 5: 'SA', 6: 'SU'}
+
+
+def get_rrule(weekdays):
+    rrule = 'FREQ=WEEKLY;BYDAY='
+    for weekday in weekdays:
+        rrule += weekday_map[weekday]
+    return rrule
+
+
+def parse_meeting_ical(meeting):
+    start = datetime.strptime(meeting['beginDate'], '%Y-%m-%d %H:%M:%S')
+    end = start + timedelta(minutes=meeting['minutesDuration'])
+    weekday = start.weekday()
+    # return weekday, start.strftime('%Y-%m-%d %H:%M:%S'), end.strftime('%Y-%m-%d %H:%M:%S')
+    return weekday, start.strftime('%H:%M'), end.strftime('%H:%M')
+
+
+def to_ical_dict(location, meetings):
+    ical = ""
+    building, room = parse_location(location)
+    if meetings and not (building in INVALID_LOCATIONS):
+        for meeting in meetings:
+            start = datetime.strptime(meeting['beginDate'],
+                                      '%Y-%m-%d %H:%M:%S')
+            end = start + timedelta(minutes=meeting['minutesDuration'])
+
+
 # TODO: filter by length of time
 # TODO: filter by location
 # TODO: find closest spaces at given time
@@ -114,7 +144,8 @@ if __name__ == '__main__':
                         default=('08:00', '22:00'),
                         nargs=2,
                         help='start time')
-    parser.add_argument('-m', '--min-duration',
+    parser.add_argument('-m',
+                        '--min-duration',
                         dest='min_duration',
                         default=15,
                         type=int,
@@ -130,8 +161,6 @@ if __name__ == '__main__':
                         help='input file')
 
     args = parser.parse_args()
-
-
 
     schedule, availabilities = main(filepath=args.filepath,
                                     start=args.time[0],

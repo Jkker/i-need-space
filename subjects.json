@@ -1,0 +1,1805 @@
+{
+    "NT": {
+        "THEA": {
+            "name": "Future Theatre Artists Worksho"
+        },
+        "PHTI": {
+            "name": "Future Imagemakers Workshop"
+        }
+    },
+    "DN": {
+        "CLS09": {
+            "name": "Clinical Sciences"
+        },
+        "CLSCI": {
+            "name": "Clinical Sciences"
+        },
+        "BEH01": {
+            "name": "Behavioral Sciences"
+        },
+        "PCL09": {
+            "name": "Preclinical Skills"
+        },
+        "PCL08": {
+            "name": "Preclinical Skills"
+        },
+        "BEH05": {
+            "name": "Behavioral Sciences"
+        },
+        "DGS06": {
+            "name": "Diagnostic Sciences"
+        },
+        "BEH03": {
+            "name": "Behavioral Sciences"
+        },
+        "BIOMS": {
+            "name": "Biomaterials"
+        },
+        "DGS03": {
+            "name": "Diagnostic Sciences"
+        },
+        "BAS01": {
+            "name": "Basic Sciences"
+        },
+        "BAS06": {
+            "name": "Basic Sciences"
+        },
+        "BASCI": {
+            "name": "Basic Sciences"
+        },
+        "PCL03": {
+            "name": "Preclinical Skills"
+        },
+        "CLS03": {
+            "name": "Clinical Sciences"
+        }
+    },
+    "NY": {
+        "ENGR": {
+            "name": "Engineering"
+        }
+    },
+    "UA": {
+        "CORE": {
+            "name": "College Core Curriculum"
+        },
+        "JOUR": {
+            "name": "Journalism"
+        },
+        "HIST": {
+            "name": "History"
+        },
+        "LATC": {
+            "name": "Latin Amer-Caribbean Studies"
+        },
+        "CLASS": {
+            "name": "Classics"
+        },
+        "FYSEM": {
+            "name": "First-Year Seminars"
+        },
+        "DS": {
+            "name": "Data Science"
+        },
+        "PSYCH": {
+            "name": "Psychology"
+        },
+        "PUBPL": {
+            "name": "Public Policy"
+        },
+        "CAMS": {
+            "name": "Child/Adoles Mental Hlth Stds"
+        },
+        "ENVST": {
+            "name": "Environmental Studies"
+        },
+        "PORT": {
+            "name": "Portuguese"
+        },
+        "CRWRI": {
+            "name": "Creative Writing"
+        },
+        "LWSOC": {
+            "name": "Law and Society"
+        },
+        "MATH": {
+            "name": "Math"
+        },
+        "POL": {
+            "name": "Politics"
+        },
+        "ITAL": {
+            "name": "Italian"
+        },
+        "PHYS": {
+            "name": "Physics"
+        },
+        "GERM": {
+            "name": "German"
+        },
+        "MEDI": {
+            "name": "Medieval & Renaissance Studies"
+        },
+        "IRISH": {
+            "name": "Irish Studies"
+        },
+        "PHIL": {
+            "name": "Philosophy"
+        },
+        "RELST": {
+            "name": "Religious Studies"
+        },
+        "HBRJD": {
+            "name": "Hebrew & Judaic Studies"
+        },
+        "CSCI": {
+            "name": "Computer Science"
+        },
+        "COHRT": {
+            "name": "First-Year Cohort Meeting"
+        },
+        "DRLIT": {
+            "name": "Dramatic Literature"
+        },
+        "EURO": {
+            "name": "European and Mediterranean Stu"
+        },
+        "ANST": {
+            "name": "Animal Studies"
+        },
+        "CHEM": {
+            "name": "Chemistry"
+        },
+        "NEURL": {
+            "name": "Neural Science"
+        },
+        "EXPOS": {
+            "name": "Expository Writing"
+        },
+        "FREN": {
+            "name": "French"
+        },
+        "LING": {
+            "name": "Linguistics"
+        },
+        "EAST": {
+            "name": "East Asian Studies"
+        },
+        "ECON": {
+            "name": "Economics"
+        },
+        "COLIT": {
+            "name": "Comparative Literature"
+        },
+        "INTRL": {
+            "name": "International Relations"
+        },
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "RUSSN": {
+            "name": "Russian & Slavic Studies"
+        },
+        "MUSIC": {
+            "name": "Music"
+        },
+        "SCHOL": {
+            "name": "CAS Scholars Program"
+        },
+        "MEIS": {
+            "name": "Middle Eastern & Islam Studies"
+        },
+        "SOC": {
+            "name": "Sociology"
+        },
+        "COLU": {
+            "name": "Columbia Language Exchange"
+        },
+        "SPAN": {
+            "name": "Spanish"
+        },
+        "ENGL": {
+            "name": "English"
+        },
+        "HEL": {
+            "name": "Hellenic Studies"
+        },
+        "SCA": {
+            "name": "Social and Cultural Analysis"
+        },
+        "ARTH": {
+            "name": "Art History"
+        },
+        "BIOL": {
+            "name": "Biology"
+        },
+        "NODEP": {
+            "name": "Non-Departmental"
+        },
+        "ANTH": {
+            "name": "Anthropology"
+        }
+    },
+    "UB": {
+        "MGMT": {
+            "name": "Management"
+        },
+        "BPEP": {
+            "name": "Business and Political Economy"
+        },
+        "SOIM": {
+            "name": "Social Impact"
+        },
+        "HONR": {
+            "name": "Honors Seminar (non-credit)"
+        },
+        "ACCT": {
+            "name": "Accounting"
+        },
+        "TECH": {
+            "name": "Computing and Data Science"
+        },
+        "STAT": {
+            "name": "Statistics & Operations Resear"
+        },
+        "MULT": {
+            "name": "Multidisciplinary"
+        },
+        "MKTG": {
+            "name": "Marketing"
+        },
+        "FINC": {
+            "name": "Finance"
+        },
+        "BSPA": {
+            "name": "Business and Society"
+        },
+        "ECON": {
+            "name": "Economics"
+        },
+        "OPMG": {
+            "name": "Operations Management"
+        }
+    },
+    "UC": {
+        "MEST1": {
+            "name": "Media Studies"
+        },
+        "LITR1": {
+            "name": "Literature"
+        },
+        "ANTH1": {
+            "name": "Anthropology"
+        },
+        "BUSN1": {
+            "name": "Business"
+        },
+        "PSYC1": {
+            "name": "Psychology"
+        },
+        "ISMM1": {
+            "name": "Information Systems Management"
+        },
+        "REBS1": {
+            "name": "Schack Undergraduate Real Esta"
+        },
+        "LRMS1": {
+            "name": "Leadership and Management Stud"
+        },
+        "SOCS1": {
+            "name": "Social Sciences"
+        },
+        "ARTH1": {
+            "name": "Art History"
+        },
+        "EXWR1": {
+            "name": "Expository Writing"
+        },
+        "HIST1": {
+            "name": "History"
+        },
+        "HUMN1": {
+            "name": "Humanities"
+        },
+        "HEAL1": {
+            "name": "Healthcare Management"
+        },
+        "MKAN1": {
+            "name": "Marketing Analytics"
+        },
+        "POLS1": {
+            "name": "Politics"
+        },
+        "TCHT1": {
+            "name": "Hotel & Tourism Management"
+        },
+        "SOCY1": {
+            "name": "Sociology"
+        },
+        "ADAV1": {
+            "name": "Applied Data Analytics and Vis"
+        },
+        "CWRG1": {
+            "name": "Creative Writing"
+        },
+        "REAL1": {
+            "name": "Real Estate"
+        },
+        "MATH1": {
+            "name": "Math"
+        },
+        "ORBC1": {
+            "name": "Organizational Behavior & Chan"
+        },
+        "TCSM1": {
+            "name": "Sports Management"
+        },
+        "FILV1": {
+            "name": "Digital Communications & Media"
+        },
+        "RWLD1": {
+            "name": "Real World Undergraduate"
+        },
+        "ARTS1": {
+            "name": "Arts"
+        },
+        "DGCM1": {
+            "name": "Digital Communications & Media"
+        },
+        "SCNC1": {
+            "name": "Science"
+        },
+        "ECON1": {
+            "name": "Economics"
+        }
+    },
+    "UD": {
+        "DHYG2": {
+            "name": "Dental Hygiene Level 2"
+        },
+        "DHYG3": {
+            "name": "Dental Hygiene BS"
+        },
+        "DHYG1": {
+            "name": "Dental Hygiene Level 1"
+        }
+    },
+    "UE": {
+        "ART": {
+            "name": "Studio Art"
+        },
+        "MTHED": {
+            "name": "Mathematics Education"
+        },
+        "MPAMT": {
+            "name": "Music Therapy"
+        },
+        "APSTA": {
+            "name": "Applied Statistics"
+        },
+        "ARTCR": {
+            "name": "Art Theory & Critical Studies"
+        },
+        "APSY": {
+            "name": "Applied Psychology"
+        },
+        "HSED": {
+            "name": "History of Education"
+        },
+        "MPATE": {
+            "name": "Music Technology"
+        },
+        "CSCD": {
+            "name": "Communicative Sciences &"
+        },
+        "CHDED": {
+            "name": "Childhood Education"
+        },
+        "MPAET": {
+            "name": "Educational Theatre"
+        },
+        "LITC": {
+            "name": "Literacy Education"
+        },
+        "MPATC": {
+            "name": "Music Theory and Composition"
+        },
+        "MPAPE": {
+            "name": "Music Instrumental: Piano"
+        },
+        "SPCED": {
+            "name": "Special Education"
+        },
+        "TCHL": {
+            "name": "Teaching & Learning"
+        },
+        "ASL": {
+            "name": "American Sign Language"
+        },
+        "MPAVP": {
+            "name": "Music Instrumental: Voice"
+        },
+        "MPADE": {
+            "name": "Dance Education"
+        },
+        "ECED": {
+            "name": "Early Childhood"
+        },
+        "FLGED": {
+            "name": "Foreign Language Education"
+        },
+        "EDST": {
+            "name": "Education Studies"
+        },
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "NUTR": {
+            "name": "Nutrition & Dietetics"
+        },
+        "ACE": {
+            "name": "Advanced College Essay"
+        },
+        "MPAPS": {
+            "name": "Music Instrumental: Percussion"
+        },
+        "OT": {
+            "name": "Occupational Therapy"
+        },
+        "SCIED": {
+            "name": "Science Education"
+        },
+        "MCC": {
+            "name": "Media"
+        },
+        "MPABR": {
+            "name": "Music Instrumental: Brass"
+        },
+        "MPAJZ": {
+            "name": "Music Instrumental: Jazz"
+        },
+        "ENGED": {
+            "name": "English Education"
+        },
+        "ARTT": {
+            "name": "Art Therapy"
+        },
+        "EDCT": {
+            "name": "Educational Communication and"
+        },
+        "SOCED": {
+            "name": "Social Studies Education"
+        },
+        "MPAMB": {
+            "name": "Music Business"
+        },
+        "PHED": {
+            "name": "Philosophy of Education"
+        },
+        "MPAIA": {
+            "name": "Interactive Music Courses"
+        },
+        "INTE": {
+            "name": "International Education"
+        },
+        "MPAME": {
+            "name": "Music Education"
+        },
+        "MPAGC": {
+            "name": "Departmental Courses"
+        },
+        "HPSE": {
+            "name": "Higher & Post-Secondary Educ"
+        },
+        "MPASS": {
+            "name": "Music Instrumental: Strings"
+        },
+        "MPAWW": {
+            "name": "Music Instrumental: Woodwinds"
+        },
+        "ARCS": {
+            "name": "Art and Costume Studies"
+        },
+        "FOOD": {
+            "name": "Food Studies"
+        },
+        "HEOP": {
+            "name": "Higher Education Opportunities"
+        },
+        "SAHS": {
+            "name": "Student Affairs Honors & Semin"
+        }
+    },
+    "UF": {
+        "APR": {
+            "name": "Approaches: Sophomore Seminar"
+        },
+        "SFIII": {
+            "name": "Social Foundations III"
+        },
+        "CFI": {
+            "name": "Cultural Foundations I"
+        },
+        "SAGC": {
+            "name": "South Asian Cultures- Global C"
+        },
+        "LISCI": {
+            "name": "Life Science"
+        },
+        "WRI": {
+            "name": "Writing I"
+        },
+        "MEGC": {
+            "name": "Middle Eastern Cultures- Globa"
+        },
+        "SCTEC": {
+            "name": "Science of Technology"
+        },
+        "WRII": {
+            "name": "Writing II"
+        },
+        "SFII": {
+            "name": "Social Foundations II"
+        },
+        "APRGS": {
+            "name": "Approaches to Global Studies"
+        },
+        "LIVN": {
+            "name": "Living in the Anthropocene"
+        },
+        "SFI": {
+            "name": "Social Foundations I"
+        },
+        "EAGC": {
+            "name": "East Asian Cultures- Global Cu"
+        },
+        "CFII": {
+            "name": "Cultural Foundations II"
+        },
+        "AWS": {
+            "name": "Advanced Writing Studio"
+        },
+        "CWP": {
+            "name": "Creative Writing"
+        },
+        "IF": {
+            "name": "Independent Fieldwork"
+        },
+        "ECII": {
+            "name": "Economics II"
+        },
+        "SCAI": {
+            "name": "Senior Capstone I"
+        },
+        "AFGC": {
+            "name": "African Cultures- Global Cultu"
+        },
+        "JIRS": {
+            "name": "Junior Independent Research Se"
+        },
+        "FWS": {
+            "name": "Fieldwork Seminar"
+        },
+        "ELEC": {
+            "name": "Topics in Humanities"
+        },
+        "ECI": {
+            "name": "Economics I"
+        },
+        "GT": {
+            "name": "Global Topics"
+        },
+        "HOU": {
+            "name": "History of the Universe"
+        },
+        "LAGC": {
+            "name": "Latin American Cultures- Globa"
+        },
+        "AELS": {
+            "name": "Academic English for Liberal Study"
+        },
+        "SRTH": {
+            "name": "Senior Thesis"
+        },
+        "CFIII": {
+            "name": "Cultural Foundations III"
+        },
+        "EXL": {
+            "name": "Experiential Learning"
+        },
+        "ENSTU": {
+            "name": "Environmental Studies"
+        },
+        "CWGV": {
+            "name": "Creative Writing: Global Voice"
+        },
+        "IND": {
+            "name": "Independent Study"
+        },
+        "DC": {
+            "name": "Dean's Circle"
+        }
+    },
+    "UG": {
+        "COLLQ": {
+            "name": "Colloquium"
+        },
+        "WRTNG": {
+            "name": "Advanced Writing Courses"
+        },
+        "IDSEM": {
+            "name": "Interdisciplinary Seminars"
+        },
+        "INDIV": {
+            "name": "Individualized Projects"
+        },
+        "FIRST": {
+            "name": "First Year program"
+        },
+        "PRACT": {
+            "name": "Practicum"
+        },
+        "SASEM": {
+            "name": "Study Away Seminar"
+        },
+        "ARTS": {
+            "name": "Arts Workshops"
+        }
+    },
+    "UH": {
+        "ARABL": {
+            "name": "Arabic Language"
+        },
+        "HERST": {
+            "name": "Heritage Studies"
+        },
+        "SOCSC": {
+            "name": "Social Sciences"
+        },
+        "HIST": {
+            "name": "History"
+        },
+        "LAW": {
+            "name": "Legal Studies"
+        },
+        "ENVR": {
+            "name": "The Environment"
+        },
+        "THEAT": {
+            "name": "Theater"
+        },
+        "PEACE": {
+            "name": "Peace Studies"
+        },
+        "PHYED": {
+            "name": "Physical Education"
+        },
+        "BUSOR": {
+            "name": "Business & Organizational Std"
+        },
+        "SMSP": {
+            "name": "Sheikh Mohamed Scholars Prog"
+        },
+        "CHEM": {
+            "name": "Chemistry"
+        },
+        "CHINL": {
+            "name": "Chinese Language"
+        },
+        "SCIEN": {
+            "name": "Science"
+        },
+        "PSYCH": {
+            "name": "Psychology"
+        },
+        "CDAD": {
+            "name": "Core: Data and Discovery"
+        },
+        "ECON": {
+            "name": "Economics"
+        },
+        "MUSIC": {
+            "name": "Music"
+        },
+        "CCOL": {
+            "name": "Core: Colloquium"
+        },
+        "CCEA": {
+            "name": "Core: Cultural Exploration & A"
+        },
+        "IM": {
+            "name": "Interactive Media"
+        },
+        "MATH": {
+            "name": "Mathematics"
+        },
+        "WRIT": {
+            "name": "Writing"
+        },
+        "VISAR": {
+            "name": "Visual Arts"
+        },
+        "CS": {
+            "name": "Computer Science"
+        },
+        "CSTS": {
+            "name": "Core: Strct of Thogh & Society"
+        },
+        "ACS": {
+            "name": "Arab Crossroads Studies"
+        },
+        "CADT": {
+            "name": "Core: Arts"
+        },
+        "POLSC": {
+            "name": "Political Science"
+        },
+        "ENGR": {
+            "name": "Engineering"
+        },
+        "FILMM": {
+            "name": "Film and New Media"
+        },
+        "HISTN": {
+            "name": "History - AEP/ESP"
+        },
+        "AW": {
+            "name": "The Ancient World"
+        },
+        "FRENL": {
+            "name": "French Language"
+        },
+        "PHYS": {
+            "name": "Physics"
+        },
+        "SRPP": {
+            "name": "Social Research & Public Polic"
+        },
+        "LITCW": {
+            "name": "Literature & Creative Writing"
+        },
+        "ARTH": {
+            "name": "Art History"
+        },
+        "BIOL": {
+            "name": "Biology"
+        },
+        "PHIL": {
+            "name": "Philosophy"
+        },
+        "ANTH": {
+            "name": "Anthropology"
+        }
+    },
+    "UN": {
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "NURSE": {
+            "name": "Nursing - Undergraduate"
+        }
+    },
+    "GA": {
+        "JOUR": {
+            "name": "Journalism"
+        },
+        "HIST": {
+            "name": "History"
+        },
+        "LATC": {
+            "name": "Latin Amer-Caribbean Studies"
+        },
+        "CLASS": {
+            "name": "Classics"
+        },
+        "DS": {
+            "name": "Data Science"
+        },
+        "AMST": {
+            "name": "American Studies"
+        },
+        "EHSC": {
+            "name": "Environmental Health Science"
+        },
+        "PSYCH": {
+            "name": "Psychology"
+        },
+        "IFST": {
+            "name": "Institute of French Studies"
+        },
+        "FINH": {
+            "name": "Fine Arts"
+        },
+        "PORT": {
+            "name": "Portuguese"
+        },
+        "CEH": {
+            "name": "Ctr for Experiment Humanities"
+        },
+        "CRWRI": {
+            "name": "Creative Writing"
+        },
+        "LWSOC": {
+            "name": "Law and Society"
+        },
+        "MATH": {
+            "name": "Mathematics"
+        },
+        "POL": {
+            "name": "Politics"
+        },
+        "PDPSA": {
+            "name": "Psychotherapy & Psychoanalysis"
+        },
+        "BMIN": {
+            "name": "Biomedical Informatics"
+        },
+        "ITAL": {
+            "name": "Italian"
+        },
+        "PHYS": {
+            "name": "Physics"
+        },
+        "AFRS": {
+            "name": "Africana Studies"
+        },
+        "GERM": {
+            "name": "German"
+        },
+        "MEDI": {
+            "name": "Medieval & Renaissance Studies"
+        },
+        "IRISH": {
+            "name": "Irish Studies"
+        },
+        "PHIL": {
+            "name": "Philosophy"
+        },
+        "RELST": {
+            "name": "Religious Studies"
+        },
+        "GSAS": {
+            "name": "Grad School of Arts & Science"
+        },
+        "BIOE": {
+            "name": "Bioethics"
+        },
+        "ISAW": {
+            "name": "Inst Study of the Ancient Wrld"
+        },
+        "BMSC": {
+            "name": "Basic Medical Science"
+        },
+        "DHSS": {
+            "name": "Digital Humanities & Soc Sci"
+        },
+        "HBRJD": {
+            "name": "Hebrew and Judaic Studies"
+        },
+        "CSCI": {
+            "name": "Computer Science"
+        },
+        "POET": {
+            "name": "Poetics and Theory"
+        },
+        "EURO": {
+            "name": "European and Mediterranean Stu"
+        },
+        "ANST": {
+            "name": "Animal Studies"
+        },
+        "CHEM": {
+            "name": "Chemistry"
+        },
+        "NEURL": {
+            "name": "Neural Science"
+        },
+        "FREN": {
+            "name": "French"
+        },
+        "LING": {
+            "name": "Linguistics"
+        },
+        "EAST": {
+            "name": "East Asian Studies"
+        },
+        "ECON": {
+            "name": "Economics"
+        },
+        "COLIT": {
+            "name": "Comparative Literature"
+        },
+        "INTRL": {
+            "name": "International Relations"
+        },
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "RUSSN": {
+            "name": "Russian & Slavic Studies"
+        },
+        "MUSIC": {
+            "name": "Music"
+        },
+        "MEIS": {
+            "name": "Middle Eastern Studies"
+        },
+        "SOC": {
+            "name": "Sociology"
+        },
+        "MSMS": {
+            "name": "Museum Studies"
+        },
+        "SPAN": {
+            "name": "Spanish"
+        },
+        "ENGL": {
+            "name": "English"
+        },
+        "HEL": {
+            "name": "Hellenic Studies"
+        },
+        "ARTH": {
+            "name": "Art and Architecture"
+        },
+        "BIOL": {
+            "name": "Biology"
+        },
+        "NEST": {
+            "name": "Near Eastern Studies"
+        },
+        "ANTH": {
+            "name": "Anthropology"
+        }
+    },
+    "GB": {
+        "MGMT": {
+            "name": "Management"
+        },
+        "ACCT": {
+            "name": "Accounting"
+        },
+        "INTA": {
+            "name": "Interarea"
+        },
+        "MCOM": {
+            "name": "Management Communication"
+        },
+        "TECH": {
+            "name": "Technology"
+        },
+        "PHDC": {
+            "name": "PHD Consortium"
+        },
+        "STAT": {
+            "name": "Statistics & Operations Rsrch"
+        },
+        "COR2": {
+            "name": "Core Course"
+        },
+        "COR1": {
+            "name": "Core Course"
+        },
+        "NOCR": {
+            "name": "Non-Credit"
+        },
+        "MKTG": {
+            "name": "Marketing"
+        },
+        "FINC": {
+            "name": "Finance"
+        },
+        "SHBI": {
+            "name": "Grad Stern/NYU Shanghai Degree"
+        },
+        "DBIN": {
+            "name": "Global Trip"
+        },
+        "BSPA": {
+            "name": "Business & Society"
+        },
+        "ECON": {
+            "name": "Economics"
+        },
+        "OPMG": {
+            "name": "Operations Management"
+        }
+    },
+    "GC": {
+        "MSEM1": {
+            "name": "Event Management"
+        },
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "HRCM1": {
+            "name": "MS in Human Resources"
+        },
+        "PRCC1": {
+            "name": "Public Relations MS"
+        },
+        "PUBB1": {
+            "name": "Publishing Masters"
+        },
+        "GLSP1": {
+            "name": "Global Sport"
+        },
+        "TRAN1": {
+            "name": "Translation"
+        },
+        "TCHS1": {
+            "name": "Hospitality Management MA/GC"
+        },
+        "GSCC1": {
+            "name": "Glob Sec"
+        },
+        "MSPM1": {
+            "name": "MS in Project Management"
+        },
+        "MASY1": {
+            "name": "Management & Systems MA/GC"
+        },
+        "TCSB1": {
+            "name": "Sports Business Magmt. MA/GC"
+        },
+        "INTG1": {
+            "name": "Integrated Marketing"
+        },
+        "REAL1": {
+            "name": "Real Estate Masters/GC"
+        },
+        "FDGR1": {
+            "name": "Fundraising MS"
+        },
+        "CONM1": {
+            "name": "Construction Management MA/GC"
+        },
+        "GLOB1": {
+            "name": "Global Studies"
+        },
+        "HCAT1": {
+            "name": "Human Capital Analytics & Tech"
+        },
+        "TCTM1": {
+            "name": "Tourism Management"
+        },
+        "PWRT1": {
+            "name": "Professional Writing"
+        },
+        "RWLD1": {
+            "name": "Real World Graduate"
+        },
+        "GCOM1": {
+            "name": "Graphic Communications"
+        },
+        "QUAL1": {
+            "name": "Quality Assurance"
+        },
+        "DEVE1": {
+            "name": "RE Development"
+        }
+    },
+    "GE": {
+        "BILED": {
+            "name": "Bilingual Education"
+        },
+        "EDLED": {
+            "name": "Educational Administration Edu"
+        },
+        "ARVA": {
+            "name": "Visual Arts Administration"
+        },
+        "MTHED": {
+            "name": "Mathematics Education"
+        },
+        "PT": {
+            "name": "Physical Therapy"
+        },
+        "MPATE": {
+            "name": "Music Technology"
+        },
+        "MPAPA": {
+            "name": "Performing Arts Administration"
+        },
+        "CHDED": {
+            "name": "Childhood Education"
+        },
+        "LITC": {
+            "name": "Literacy Education"
+        },
+        "MPATC": {
+            "name": "Music Theory and Composition"
+        },
+        "MPAPE": {
+            "name": "Music Instrumental: Piano"
+        },
+        "SPCED": {
+            "name": "Special Education"
+        },
+        "TCHL": {
+            "name": "Teaching & Learning"
+        },
+        "LANED": {
+            "name": "Language Education"
+        },
+        "ARTED": {
+            "name": "Art Education"
+        },
+        "MPADE": {
+            "name": "Dance Education"
+        },
+        "ECED": {
+            "name": "Early Childhood"
+        },
+        "TESOL": {
+            "name": "Teaching English as a Second"
+        },
+        "NUTR": {
+            "name": "Nutrition & Dietetics"
+        },
+        "MPABR": {
+            "name": "Music Instrumental: Brass"
+        },
+        "MPAJZ": {
+            "name": "Music Instrumental: Jazz"
+        },
+        "ENGED": {
+            "name": "English Education"
+        },
+        "IUCD": {
+            "name": "Inter-University Doctoral Cons"
+        },
+        "EDPLY": {
+            "name": "Educational Policy"
+        },
+        "PHED": {
+            "name": "Philosophy of Education"
+        },
+        "MPAGC": {
+            "name": "Departmental Courses"
+        },
+        "MPASS": {
+            "name": "Music Instrumental: Strings"
+        },
+        "MPAWW": {
+            "name": "Music Instrumental: Woodwinds"
+        },
+        "RESCH": {
+            "name": "Interdepartmental Research"
+        },
+        "ART": {
+            "name": "Studio Art"
+        },
+        "MPAMT": {
+            "name": "Music Therapy"
+        },
+        "APSTA": {
+            "name": "Applied Statistics"
+        },
+        "ARTCR": {
+            "name": "Art Theory & Critical Studies"
+        },
+        "APSY": {
+            "name": "Applied Psychology"
+        },
+        "HSED": {
+            "name": "History of Education"
+        },
+        "CSCD": {
+            "name": "Communicative Sciences &"
+        },
+        "MPAET": {
+            "name": "Educational Theatre"
+        },
+        "ENYC": {
+            "name": "Environmental Conservation Ed"
+        },
+        "ASH": {
+            "name": "Appl Stat"
+        },
+        "MPAVP": {
+            "name": "Music Instrumental: Voice"
+        },
+        "SOED": {
+            "name": "Sociology of Education"
+        },
+        "FLGED": {
+            "name": "Foreign Language Education"
+        },
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "MPAPS": {
+            "name": "Music Instrumental: Percussion"
+        },
+        "OT": {
+            "name": "Occupational Therapy"
+        },
+        "EJST": {
+            "name": "Education & Jewish Studies"
+        },
+        "DCADV": {
+            "name": "Doctoral Advisement"
+        },
+        "SCIED": {
+            "name": "Science Education"
+        },
+        "MPADT": {
+            "name": "Drama Therapy"
+        },
+        "MCC": {
+            "name": "Media"
+        },
+        "ARTT": {
+            "name": "Art Therapy"
+        },
+        "EDCT": {
+            "name": "Educational Communications &"
+        },
+        "SOCED": {
+            "name": "Social Studies Education"
+        },
+        "MPAMB": {
+            "name": "Music Business"
+        },
+        "ARTP": {
+            "name": "Art & Art Professions"
+        },
+        "MPAIA": {
+            "name": "Interactive Music Courses"
+        },
+        "INTE": {
+            "name": "International Education"
+        },
+        "MPAME": {
+            "name": "Music Education"
+        },
+        "HPSE": {
+            "name": "Higher & Post-Secondary Educ"
+        },
+        "EMAT": {
+            "name": "Social Studies Edu - Distance"
+        },
+        "ARCS": {
+            "name": "Costume Studies"
+        },
+        "FOOD": {
+            "name": "Food Studies"
+        },
+        "SAHS": {
+            "name": "Student Affairs Honors & Semin"
+        }
+    },
+    "US": {
+        "UNDSW": {
+            "name": "Undergrad Social Work"
+        }
+    },
+    "UT": {
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "CINE": {
+            "name": "Cinema Studies"
+        },
+        "ICINE": {
+            "name": "Int`l Pgms"
+        },
+        "GAMES": {
+            "name": "Game Design"
+        },
+        "GMTW": {
+            "name": "Musical Theatre"
+        },
+        "PHTI": {
+            "name": "Photography and Imaging"
+        },
+        "FMTV": {
+            "name": "Undergrad Film & TV"
+        },
+        "DWPG": {
+            "name": "Dramatic Writing"
+        },
+        "ASPP": {
+            "name": "Ctr for Art"
+        },
+        "PERF": {
+            "name": "Performance Studies"
+        },
+        "DANC": {
+            "name": "Dance"
+        },
+        "IMNY": {
+            "name": "Interactive Media Arts"
+        },
+        "SFMTV": {
+            "name": "Spr Sem at Tisch - Film & TV"
+        },
+        "ISPEC": {
+            "name": "Int'l Pgms TSOA Special Pgms"
+        },
+        "OART": {
+            "name": "Open Arts Curriculum"
+        },
+        "ITHEA": {
+            "name": "Int`l Pgms"
+        },
+        "THEA": {
+            "name": "Drama"
+        },
+        "IDWPG": {
+            "name": "Int`l Pgms"
+        },
+        "IFMTV": {
+            "name": "Int`l Pgms"
+        },
+        "IPHTI": {
+            "name": "Int`l Pgms"
+        },
+        "REMU": {
+            "name": "Recorded Music"
+        },
+        "SPEC": {
+            "name": "TSOA Special Programs"
+        }
+    },
+    "GG": {
+        "CORE": {
+            "name": "Core"
+        },
+        "SCHOL": {
+            "name": "Scholarly Communities"
+        },
+        "ELEC": {
+            "name": "Electives"
+        },
+        "INDIV": {
+            "name": "Individualized Projects"
+        }
+    },
+    "UU": {
+        "UGPH": {
+            "name": "Undergrad Global Public Health"
+        }
+    },
+    "SHU": {
+        "JOUR": {
+            "name": "Journalism"
+        },
+        "ART": {
+            "name": "Art"
+        },
+        "GCHN": {
+            "name": "Global China Studies"
+        },
+        "HIST": {
+            "name": "History"
+        },
+        "CENG": {
+            "name": "Computer Engineering"
+        },
+        "CSCI": {
+            "name": "Computer Science"
+        },
+        "CCEX": {
+            "name": "Exper Discovery in Nat World"
+        },
+        "HUMN": {
+            "name": "Humanities"
+        },
+        "EXLI": {
+            "name": "Experiential Learning"
+        },
+        "CHEM": {
+            "name": "Chemistry"
+        },
+        "FREN": {
+            "name": "French Language"
+        },
+        "CHIN": {
+            "name": "Chinese Language"
+        },
+        "CRWR": {
+            "name": "Creative Writing"
+        },
+        "JAPN": {
+            "name": "Japanese Language\u00a0"
+        },
+        "IMBX": {
+            "name": "Interactive Media and Business"
+        },
+        "RELS": {
+            "name": "Religious Studies"
+        },
+        "ECON": {
+            "name": "Economics"
+        },
+        "CCST": {
+            "name": "Core Science"
+        },
+        "MGMT": {
+            "name": "Management"
+        },
+        "BPEP": {
+            "name": "Business & Political Economy P"
+        },
+        "PSYC": {
+            "name": "Psychology"
+        },
+        "MUS": {
+            "name": "Music"
+        },
+        "SOCS": {
+            "name": "Social Science"
+        },
+        "CEL": {
+            "name": "Community-Engaged Learning"
+        },
+        "MATH": {
+            "name": "Mathematics"
+        },
+        "NYU": {
+            "name": "NYU Shanghai"
+        },
+        "MCC": {
+            "name": "Media"
+        },
+        "CCSF": {
+            "name": "Social Foundations"
+        },
+        "SPAN": {
+            "name": "Spanish Language"
+        },
+        "WRIT": {
+            "name": "Writing"
+        },
+        "NEUR": {
+            "name": "Neural Science"
+        },
+        "EAP": {
+            "name": "English for Academic Purpose"
+        },
+        "MKTG": {
+            "name": "Marketing"
+        },
+        "PHYS": {
+            "name": "Physics"
+        },
+        "BUSF": {
+            "name": "Business and Finance"
+        },
+        "EENG": {
+            "name": "Electrical Engineering"
+        },
+        "BIOL": {
+            "name": "Biology"
+        },
+        "INTM": {
+            "name": "Interactive Media Arts"
+        },
+        "PHIL": {
+            "name": "Philosophy"
+        }
+    },
+    "CD": {
+        "ETHIC": {
+            "name": "Ethics"
+        },
+        "BEHSC": {
+            "name": "Behavioral Sciences"
+        },
+        "DGSCI": {
+            "name": "Diagnostic Sciences"
+        },
+        "IMPLA": {
+            "name": "Implant Dentistry"
+        },
+        "BASCI": {
+            "name": "Basic Sciences"
+        }
+    },
+    "GH": {
+        "ENGR": {
+            "name": "Engineering"
+        }
+    },
+    "UY": {
+        "URB": {
+            "name": "Urban Studies"
+        },
+        "CBE": {
+            "name": "Chemical & Biological Enginrng"
+        },
+        "DM": {
+            "name": "Integrated Digital Media"
+        },
+        "STS": {
+            "name": "Science and Technology"
+        },
+        "MA": {
+            "name": "Mathematics"
+        },
+        "MD": {
+            "name": "Media Studies"
+        },
+        "ME": {
+            "name": "Mechanical Engineering"
+        },
+        "PHP": {
+            "name": "Prehealth Prep"
+        },
+        "SL": {
+            "name": "Student Life"
+        },
+        "MG": {
+            "name": "Management"
+        },
+        "CE": {
+            "name": "Civil & Urban Engineering"
+        },
+        "EG": {
+            "name": "General Engineering"
+        },
+        "AE": {
+            "name": "Aerospace Engineering"
+        },
+        "ECE": {
+            "name": "Elect. Engineering - ECE UGRD"
+        },
+        "BMS": {
+            "name": "Biomolecular Science"
+        },
+        "EN": {
+            "name": "English"
+        },
+        "CM": {
+            "name": "Chemistry"
+        },
+        "FIN": {
+            "name": "Finance"
+        },
+        "CP": {
+            "name": "Co-op Education Program"
+        },
+        "CAM": {
+            "name": "Culture"
+        },
+        "CS": {
+            "name": "Computer Science"
+        },
+        "EX": {
+            "name": "Exam Hour"
+        },
+        "SEG": {
+            "name": "Society"
+        },
+        "PH": {
+            "name": "Physics"
+        },
+        "VIP": {
+            "name": "Vertically Integrated Projects"
+        }
+    },
+    "GN": {
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "NURSE": {
+            "name": "Nursing - Graduate"
+        }
+    },
+    "GP": {
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "CORE": {
+            "name": "School-wide core"
+        },
+        "EXEC": {
+            "name": "Executive MPA"
+        },
+        "MSPP": {
+            "name": "M.S. in Public Policy Courses"
+        },
+        "CAP": {
+            "name": "Capstone"
+        },
+        "HPAM": {
+            "name": "Health policy and management"
+        },
+        "MHA": {
+            "name": "Health Administration"
+        },
+        "NONCR": {
+            "name": "Noncredit"
+        },
+        "UPADM": {
+            "name": "UG Pub & Nonprofit MGT and Pol"
+        },
+        "PHD": {
+            "name": "Doctoral"
+        },
+        "URPL": {
+            "name": "Urban planning"
+        },
+        "PADM": {
+            "name": "Pub and Nonprofit MGMT and Pol"
+        }
+    },
+    "GS": {
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "MSWPF": {
+            "name": "Professional Foundation Course"
+        },
+        "MSWAC": {
+            "name": "Advanced Concentration Courses"
+        },
+        "DSWSW": {
+            "name": "Doctor of Social Welfare"
+        },
+        "PHDSW": {
+            "name": "Doctoral"
+        },
+        "MSWFD": {
+            "name": "Fieldlearning"
+        },
+        "MSWEL": {
+            "name": "Electives"
+        }
+    },
+    "GT": {
+        "ITPG": {
+            "name": "Interactive Telecommunications"
+        },
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "CINE": {
+            "name": "Cinema Studies"
+        },
+        "GAMES": {
+            "name": "Game Design"
+        },
+        "GMTW": {
+            "name": "Musical Theatre"
+        },
+        "PHTI": {
+            "name": "Photography and Imaging"
+        },
+        "DESG": {
+            "name": "Design"
+        },
+        "DWPG": {
+            "name": "Dramatic Writing"
+        },
+        "ACTG": {
+            "name": "Graduate Acting"
+        },
+        "ASPP": {
+            "name": "Ctr for Art"
+        },
+        "PERF": {
+            "name": "Performance Studies"
+        },
+        "DANC": {
+            "name": "Dance"
+        },
+        "OART": {
+            "name": "Open Arts Curriculum"
+        },
+        "GFMTV": {
+            "name": "Graduate Film & TV"
+        }
+    },
+    "GU": {
+        "MAINT": {
+            "name": "Maintenance"
+        },
+        "GPH": {
+            "name": "Global Public Health"
+        }
+    },
+    "GX": {
+        "CUSP": {
+            "name": "Ctr for Urban Sci and Progress"
+        },
+        "MAINT": {
+            "name": "maintenance"
+        }
+    },
+    "GY": {
+        "MN": {
+            "name": "Manufacturing Engineering"
+        },
+        "CE": {
+            "name": "Civil & Urban Engineering"
+        },
+        "BE": {
+            "name": "BioEngineering"
+        },
+        "ECE": {
+            "name": "Elect. Engineering - ECE GRAD"
+        },
+        "BI": {
+            "name": "Bioinformatics"
+        },
+        "CBE": {
+            "name": "Chemical & Biological Engnrng"
+        },
+        "DM": {
+            "name": "Integrated Digital Media"
+        },
+        "CM": {
+            "name": "Chemistry"
+        },
+        "CP": {
+            "name": "Co-op Education Program"
+        },
+        "CS": {
+            "name": "Computer Science"
+        },
+        "BT": {
+            "name": "Biotechnology"
+        },
+        "BTE": {
+            "name": "Biotechnology & Entrepreneursh"
+        },
+        "RE": {
+            "name": "Registrar"
+        },
+        "MA": {
+            "name": "Mathematics"
+        },
+        "FRE": {
+            "name": "Finance and Risk Engineering"
+        },
+        "ME": {
+            "name": "Mechanical Engineering"
+        },
+        "PH": {
+            "name": "Physics"
+        },
+        "MG": {
+            "name": "Management"
+        },
+        "IE": {
+            "name": "Industrial Engineering"
+        },
+        "TR": {
+            "name": "Transportation"
+        }
+    },
+    "NB": {
+        "STRN": {
+            "name": "Stern On-line Programs"
+        }
+    },
+    "NE": {
+        "MTRO": {
+            "name": "Excel - NYU Connect"
+        },
+        "MPAP": {
+            "name": "MPAP Summer Programs"
+        }
+    },
+    "NH": {
+        "UNIST": {
+            "name": "University Studies"
+        }
+    },
+    "NI": {
+        "ESL": {
+            "name": "English as a Second Language"
+        }
+    },
+    "DC": {
+        "CRED1": {
+            "name": "Credit Analysis Diploma"
+        },
+        "PARAL": {
+            "name": "Paralegal"
+        }
+    }
+}
