@@ -22,21 +22,31 @@ def classrooms_scraper():
                 ])
         d = {**d, **dict(table_data)}
 
-    with open("data/locations.json", "w") as f:
+    with open("data/building_code.json", "w") as f:
         json.dump(d, f, indent=4)
-        print('✅ NYU classroom locations saved to data/locations.json')
+        print('✅ NYU classroom locations saved to data/building_code.json')
 
 
 def building_normalizer():
-    with open("data/locations.json", "r") as f:
+    with open("data/building_code.json", "r") as f:
         data = json.load(f)
 
+        values = list(data.values())
+
         def normalize(b):
+            if b in values:
+                return b
+
             if b in data:
                 # print(f'Replaced {b} with {data[b]}')
                 return data[b]
-            else:
-                return b
+            # n = b.split(' ')[0].upper()
+            # if len(n) > 2 and n in data:
+            #     print(f'Replaced {b} with {data[n]}')
+            #     return data[n]
+
+
+            return b
 
         return normalize
 
@@ -70,10 +80,13 @@ def get_city_district(address_components):
 
 
 def find_place(place, catch_error=True):
-    if place in places_cache:
-        return places_cache[place]
+    place = place.title()
+
     if place in places_error:
         return None
+
+    if place in places_cache:
+        return places_cache[place]
 
     else:
         try:

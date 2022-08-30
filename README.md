@@ -8,7 +8,7 @@ Output data can be found in the [`out`](out) folder.
 
 Scrapes NYU Classroom location data from [nyu.edu](https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/registration/classroom-locations.html).
 
-Output is saved to `data/locations.json`
+Output is saved to `data/building_code.json`
 
 ```sh
 python locations.py

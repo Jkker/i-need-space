@@ -7,8 +7,14 @@ from locations import building_normalizer, find_place, places_cache, places_erro
 from tqdm import tqdm
 from utils import dump_json
 
-INVALID_LOCATIONS = set(
-    ['No', 'TBA', 'Online', 'Off', 'To Be Arranged', 'No Room Required'])
+INVALID_LOCATIONS = [
+    'No', 'TBA', 'Online', 'Off', 'To Be Arranged', 'No Room Required',
+    'Off-Campus', 'No room needed', 'Online'
+]
+INVALID_CAMPUS = [
+    'Off Campus', 'Online', 'Distance Learning/Synchronous',
+    'Distance Learning/Asynchronous'
+]
 
 normalize_building = building_normalizer()
 
@@ -42,15 +48,16 @@ def parse_location(location_str):
     return location, room
 
 
-def add_to_schedule(schedule, location_str, meetings):
-    if location_str in INVALID_LOCATIONS: return
+def add_to_schedule(schedule, location_str, meetings, campus):
+    if campus in INVALID_CAMPUS:
+        return
+    if location_str in INVALID_LOCATIONS:
+        return
 
     location, room = parse_location(location_str)
 
     if location is None:
-        print('🌋 Invalid location:', location_str)
         return
-
 
     location_name = location.get('name_nyu')
 
@@ -65,16 +72,18 @@ def add_to_schedule(schedule, location_str, meetings):
 
 
 def create_schedule(data):
+    print('Creating schedule...')
     schedule = recursively_default_dict()
     for course in tqdm(data):
         try:
-            for session in course['sections']:
-                add_to_schedule(schedule, session['location'],
-                                session['meetings'])
-                if not session.get('recitations'): continue
-                for recitation in session['recitations']:
+            for section in course['sections']:
+
+                add_to_schedule(schedule, section['location'],
+                                section['meetings'], section['campus'])
+                if not section.get('recitations'): continue
+                for recitation in section['recitations']:
                     add_to_schedule(schedule, recitation['location'],
-                                    recitation['meetings'])
+                                    recitation['meetings'], section['campus'])
         except Exception as e:
             raise e
             # print('Error:', course['name'])
@@ -110,7 +119,7 @@ def main(filepath, start="08:00", end="22:00", min_duration=15):
         data = json.load(data_file)
         schedule = create_schedule(data)
         availabilities = recursively_default_dict()
-        for building in tqdm(sorted(schedule.keys())):
+        for building in sorted(schedule.keys()):
             rooms = schedule[building]['rooms']
             availabilities[building] = schedule[building]['location']
             availabilities[building]['rooms'] = recursively_default_dict()
