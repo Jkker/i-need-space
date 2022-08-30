@@ -35,18 +35,18 @@ def building_normalizer():
 
         def normalize(b):
             if b in values:
-                return b
+                return b.title().replace('Nyu', 'NYU')
 
             if b in data:
                 # print(f'Replaced {b} with {data[b]}')
-                return data[b]
+                return data[b].title().replace('Nyu', 'NYU')
             # n = b.split(' ')[0].upper()
             # if len(n) > 2 and n in data:
             #     print(f'Replaced {b} with {data[n]}')
             #     return data[n]
 
 
-            return b
+            return b.title().replace('Nyu', 'NYU')
 
         return normalize
 
@@ -81,7 +81,7 @@ def get_city_district(address_components):
 
 
 def find_place(place, catch_error=True):
-    place = place.title()
+    place = place
 
     if place in places_error:
         return None
