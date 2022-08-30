@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from datetime import datetime, timedelta
 from collections import defaultdict
@@ -69,7 +70,8 @@ def add_to_schedule(schedule, location_str, meetings, campus):
     if location is None:
         return
 
-    location_name = location.get('name_nyu')
+    location_name = location.get('name_nyu').title().replace('Nyu', 'NYU')
+
 
     schedule[location_name]['location'] = location
 

@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from utils import dump_json
+from copy import deepcopy
 
 url = "https://www.nyu.edu/students/student-information-and-resources/registration-records-and-graduation/registration/classroom-locations.html"
 
@@ -88,7 +89,7 @@ def find_place(place, catch_error=True):
 
     if place in places_cache:
         new_cache[place] = places_cache[place]
-        return places_cache[place]
+        return deepcopy(places_cache[place])
 
     else:
         try:
