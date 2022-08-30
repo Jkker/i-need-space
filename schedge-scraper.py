@@ -1,6 +1,6 @@
 import requests as re
 import json
-import argparse
+from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 import aiohttp
 import asyncio
 from tqdm.asyncio import tqdm
@@ -8,13 +8,14 @@ from tqdm.asyncio import tqdm
 ROOT_URL = "https://schedge.a1liu.com"
 SUBJECT_URL = f"{ROOT_URL}/subjects"
 SEMESTERS = ["fa", "su", "sp", "ja"]
+SCHOOLS = ['NT', 'DN', 'NY', 'UA', 'UB', 'UC', 'UD', 'UE', 'UF', 'UG', 'UH', 'UN', 'GA', 'GB', 'GC', 'GE', 'US', 'UT', 'GG', 'UU', 'SHU', 'CD', 'GH', 'UY', 'GN', 'GP', 'GS', 'GT', 'GU', 'GX', 'GY', 'NB', 'NE', 'NH', 'NI', 'DC']
 
-
-def get_subjects():
+def get_subjects(save=True):
     res = re.get(SUBJECT_URL)
     subjects = res.json()
-    with open('subjects.json', 'w') as f:
-        json.dump(subjects, f, indent=4)
+    if save:
+        with open('./data/subjects.json', 'w') as f:
+            json.dump(subjects, f, indent=4)
     return subjects
 
 
@@ -53,42 +54,41 @@ def write_to_file(data, sem, year):
 async def main(args):
     semester = args.semester
     year = args.year
-    subject_keys = args.subjects
-    if semester not in SEMESTERS:
-        raise ValueError("Invalid semester string!. Please try again")
+    school_keys = args.schools
     subjects = get_subjects()
 
-    courses = await scrape(semester, year,
-                        {k: subjects[k]
-                         for k in subject_keys} if subject_keys else subjects)
-    with open(f"./data/{year}{semester}-{'_'.join(subject_keys)}.json" if subject_keys else f"./data/{year}{semester}.json", "w") as f:
+    courses = await scrape(
+        semester, year, {k: subjects[k]
+                         for k in school_keys} if school_keys else subjects)
+    with open(
+            f"./data/{year}{semester}-{'_'.join(school_keys)}.json"
+            if school_keys else f"./data/{year}{semester}.json", "w") as f:
         json.dump(courses, f, indent=4)
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(
-        description="Quick script for scraping schedge")
-    parser.add_argument('--semester',
-                        '-sem',
-                        dest='semester',
-                        required=True,
-                        type=str,
-                        help="Semester to scrape from [fa, su, sp, ja]")
-    parser.add_argument('--year',
-                        '-yr',
-                        dest='year',
-                        required=True,
-                        type=int,
-                        help="Year to choose from")
+    parser = ArgumentParser(
+        description=
+        "Scrapes a specific semester's class schedule from the Schedge API (https://schedge.a1liu.com)",
+        formatter_class=ArgumentDefaultsHelpFormatter)
     parser.add_argument(
-        '--subjects',
-        '-sub',
-        dest='subjects',
-        required=False,
+        '--semester',
+        dest='semester',
+        required=True,
         type=str,
-        nargs='+',
+        choices=SEMESTERS,
     )
+    parser.add_argument(
+        '--year',
+        dest='year',
+        required=True,
+        type=int,
+    )
+    parser.add_argument('--schools',
+                        dest='schools',
+                        required=False,
+                        type=str,
+                        nargs='+',
+                        help="Schools to retain in the output. If not specified, all schools are included.")
     arguments = parser.parse_args()
     asyncio.run(main(arguments))
-
-    # main(arguments)
