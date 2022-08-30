@@ -90,7 +90,7 @@ python vacancy-calculator.py --time-range '08:00', '22:00' --min-duration 15 --s
     "name": "Elmer Holmes Bobst Library",
     "name_nyu": "Bobst Library",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "LL151": { // Room Number
         "0": [

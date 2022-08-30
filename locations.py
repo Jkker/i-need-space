@@ -102,7 +102,7 @@ def find_place(place, catch_error=True):
                     'id']
             item['name'] = data.get('name')
             item['name_nyu'] = place
-            item['city'], item['district'] = get_city_district(
+            item['city'], item['borough'] = get_city_district(
                 data.get('address_components'))
 
             places_cache[place] = item

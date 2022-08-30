@@ -8,7 +8,7 @@
     "name": "1 Park Ave",
     "name_nyu": "1 Park Ave",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "7211": {
         "0": [
@@ -129,7 +129,7 @@
     "name": "1 Washington Pl",
     "name_nyu": "1 Washington Pl",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "401": {
         "0": [
@@ -634,7 +634,7 @@
     "name": "1 Washington Square N",
     "name_nyu": "1 Washington Square North",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "112": {
         "0": [
@@ -1239,7 +1239,7 @@
     "name": "Student Services Block",
     "name_nyu": "10 Washington Pl",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "103": {
         "0": [
@@ -1384,7 +1384,7 @@
     "name": "101 Astor Pl",
     "name_nyu": "101 Astor Place",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "206": {
         "0": [
@@ -1865,7 +1865,7 @@
     "name": "111, 113A Second Avenue",
     "name_nyu": "111 2nd Ave",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "201": {
         "0": [
@@ -2246,7 +2246,7 @@
     "name": "12 Waverly Pl",
     "name_nyu": "12 Waverly Pl",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "805": {
         "0": [
@@ -2647,7 +2647,7 @@
     "name": "133 MacDougal St",
     "name_nyu": "133 MacDougal St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Theatre": {
         "0": [
@@ -2744,7 +2744,7 @@
     "name": "14 E 78th St",
     "name_nyu": "14 E78 St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "501": {
         "0": [
@@ -3017,7 +3017,7 @@
     "name": "14 University Pl",
     "name_nyu": "14 Univ Pl",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "MAP Rm": {
         "0": [
@@ -3090,7 +3090,7 @@
     "name": "14A Washington Mews",
     "name_nyu": "14A Washington Mews",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "101": {
         "0": [
@@ -3151,7 +3151,7 @@
     "name": "19 University Pl",
     "name_nyu": "19 University Pl",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "": {
         "0": [
@@ -3816,7 +3816,7 @@
     "name": "19 West 4th Street",
     "name_nyu": "19 W 4th St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "101": {
         "0": [
@@ -4673,7 +4673,7 @@
     "name": "19 Washington Square N",
     "name_nyu": "19 Wash Sq North",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "GSR": {
         "0": [
@@ -4734,7 +4734,7 @@
     "name": "194 Mercer Street",
     "name_nyu": "194 Mercer St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "201": {
         "0": [
@@ -5871,7 +5871,7 @@
     "name": "196 Mercer St",
     "name_nyu": "196 Mercer street",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "602": {
         "0": [
@@ -5932,7 +5932,7 @@
     "name": "2 MetroTech Center",
     "name_nyu": "2 MetroTech Ctr",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "800-1": {
         "0": [
@@ -7301,7 +7301,7 @@
     "name": "20 Cooper Sq",
     "name_nyu": "20 Cooper Square",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "403A": {
         "0": [
@@ -8206,7 +8206,7 @@
     "name": "24 E 8th St",
     "name_nyu": "24 E 8th St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "": {
         "0": [
@@ -8287,7 +8287,7 @@
     "name": "24 W 12th St",
     "name_nyu": "24 W 12th St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "201": {
         "0": [
@@ -8476,7 +8476,7 @@
     "name": "240 Greene St",
     "name_nyu": "240 Greene St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "410": {
         "0": [
@@ -8541,7 +8541,7 @@
     "name": "244 Greene St",
     "name_nyu": "244 Greene St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "105": {
         "0": [
@@ -8726,7 +8726,7 @@
     "name": "25 West 4th Street",
     "name_nyu": "25 W 4th St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C-10": {
         "0": [
@@ -9706,7 +9706,7 @@
     "name": "25 Waverly Pl",
     "name_nyu": "25 Waverly Pl",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "102": {
         "0": [
@@ -10011,7 +10011,7 @@
     "name": "Puck Bldg",
     "name_nyu": "295 Lafayette St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "4130": {
         "0": [
@@ -10200,7 +10200,7 @@
     "name": "325 Gold St",
     "name_nyu": "325 Gold Street",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "1st Floor": {
         "0": [
@@ -10257,7 +10257,7 @@
     "name": "370 Jay St",
     "name_nyu": "370 Jay St",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "202": {
         "0": [
@@ -11462,7 +11462,7 @@
     "name": "370 Jay St",
     "name_nyu": "370 Jay Street",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "1201": {
         "0": [
@@ -12771,7 +12771,7 @@
     "name": "370 Jay St",
     "name_nyu": "370 Jay st",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "540": {
         "0": [
@@ -12848,7 +12848,7 @@
     "name": "380 2nd Ave",
     "name_nyu": "380 2nd Ave",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "403": {
         "0": [
@@ -13132,7 +13132,7 @@
     "name": "Third Avenue North",
     "name_nyu": "3rd Ave North Dormitory",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C205": {
         "0": [
@@ -13305,7 +13305,7 @@
     "name": "411 Lafayette St",
     "name_nyu": "411 Lafayette St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "510": {
         "0": [
@@ -13466,7 +13466,7 @@
     "name": "433 1st Ave.",
     "name_nyu": "433 1st Ave",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "110": {
         "0": [
@@ -14851,7 +14851,7 @@
     "name": "443 1st Ave.",
     "name_nyu": "443 1st Ave",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "550B": {
         "0": [
@@ -14920,7 +14920,7 @@
     "name": "45 West 4th Street",
     "name_nyu": "45 West 4th",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "B01": {
         "0": [
@@ -15369,7 +15369,7 @@
     "name": "48 W 21st St #8th",
     "name_nyu": "48 W 21 St 8th Fl",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Stonestreet": {
         "0": [
@@ -15442,7 +15442,7 @@
     "name": "5 Washington Pl",
     "name_nyu": "5 Washington Pl",
     "city": "Cliffside Park",
-    "district": null,
+    "borough": null,
     "rooms": {
       "101": {
         "0": [
@@ -15655,7 +15655,7 @@
     "name": "58 W 10th St",
     "name_nyu": "58 W 10th St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "103": {
         "0": [
@@ -15860,7 +15860,7 @@
     "name": "60 5th Ave",
     "name_nyu": "60 5th Ave",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "110": {
         "0": [
@@ -17041,7 +17041,7 @@
     "name": "665 Broadway",
     "name_nyu": "665 Broadway",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "643": {
         "0": [
@@ -17210,7 +17210,7 @@
     "name": "7 East12th Street",
     "name_nyu": "7 E 12th St",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "121": {
         "0": [
@@ -18979,7 +18979,7 @@
     "name": "708 Broadway",
     "name_nyu": "708 Broadway",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "1001": {
         "0": [
@@ -19180,7 +19180,7 @@
     "name": "715 Broadway",
     "name_nyu": "715 Broadway",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "1227": {
         "0": [
@@ -19493,7 +19493,7 @@
     "name": "719 Broadway",
     "name_nyu": "719 Broadway",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "1221": {
         "0": [
@@ -19646,7 +19646,7 @@
     "name": "Broadway Block",
     "name_nyu": "721 Broadway",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "002": {
         "0": [
@@ -24283,7 +24283,7 @@
     "name": "725 Broadway",
     "name_nyu": "725 BROADWAY",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {}
   },
   "726 Broadway": {
@@ -24295,7 +24295,7 @@
     "name": "726 Broadway",
     "name_nyu": "726 Broadway",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "1025": {
         "0": [
@@ -24812,7 +24812,7 @@
     "name": "NYU Academic Resource Center",
     "name_nyu": "Academic Resource Center, 18 Washington Place",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "LL01": {
         "0": [
@@ -25189,7 +25189,7 @@
     "name": "Jack H. Skirball Center For The Performing Arts",
     "name_nyu": "Arts Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C3-006)": {
         "0": [
@@ -26242,7 +26242,7 @@
     "name": "Studio Arts NYC",
     "name_nyu": "Arts Center 010",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Arts Center 010": {
         "0": [
@@ -26311,7 +26311,7 @@
     "name": "Performing Arts Center",
     "name_nyu": "Arts Center 015",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Arts Center 015": {
         "0": [
@@ -26376,7 +26376,7 @@
     "name": "Barneys Hardware",
     "name_nyu": "Barney",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "BSMT": {
         "0": [
@@ -26469,7 +26469,7 @@
     "name": "Barney Bldg",
     "name_nyu": "Barney Building",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "101": {
         "0": [
@@ -27810,7 +27810,7 @@
     "name": "Elmer Holmes Bobst Library",
     "name_nyu": "Bobst Library",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "251": {
         "0": [
@@ -29159,7 +29159,7 @@
     "name": "Triangle Shirtwaist Factory",
     "name_nyu": "Brown Building",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "151": {
         "0": [
@@ -29340,7 +29340,7 @@
     "name": "Student Resource Center",
     "name_nyu": "Campus Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2)": {
         "0": [
@@ -30305,7 +30305,7 @@
     "name": "New School Libraries & Archives, University Center",
     "name_nyu": "Campus Center Library",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2-306)": {
         "0": [
@@ -30614,7 +30614,7 @@
     "name": "Iris & B. Gerald Cantor Film Center",
     "name_nyu": "Cantor Film Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "101": {
         "0": [
@@ -30827,7 +30827,7 @@
     "name": "Casa Italiana New York University",
     "name_nyu": "Casa Italiana",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Auditorium": {
         "0": [
@@ -30908,7 +30908,7 @@
     "name": "Chemiclab",
     "name_nyu": "Chem Lab A1",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Chem Lab A1-012/013/014": {
         "0": [
@@ -30977,7 +30977,7 @@
     "name": "Fabio Clemente StudioX BJJ",
     "name_nyu": "Combative Studio",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2)": {
         "0": [
@@ -31050,7 +31050,7 @@
     "name": "SIS International Research",
     "name_nyu": "Comp Research",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "A2-001)": {
         "0": [
@@ -31903,7 +31903,7 @@
     "name": "Columbia University: Department of Computer Science",
     "name_nyu": "Computational Research 005",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Computational Research 005": {
         "0": [
@@ -31988,7 +31988,7 @@
     "name": "Institute for Advanced Computational Science",
     "name_nyu": "Computational Research 006",
     "city": "Stony Brook",
-    "district": null,
+    "borough": null,
     "rooms": {
       "Computational Research 006": {
         "0": [
@@ -32077,7 +32077,7 @@
     "name": "Dance With Me Soho",
     "name_nyu": "Dance Studio",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2)": {
         "0": [
@@ -32166,7 +32166,7 @@
     "name": "Deutsches Haus",
     "name_nyu": "Deutsches Haus",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "100A": {
         "0": [
@@ -32227,7 +32227,7 @@
     "name": "Bern Dibner Library of Science and Technology",
     "name_nyu": "Dibner",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "Pfizer Auditorium": {
         "0": [
@@ -32332,7 +32332,7 @@
     "name": "Bern Dibner Library of Science and Technology",
     "name_nyu": "Dibner Building",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "LC009": {
         "0": [
@@ -32677,7 +32677,7 @@
     "name": "NYU Steinhardt, East Building",
     "name_nyu": "EDUCATION BUILDING",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {}
   },
   "ENGR": {
@@ -32689,7 +32689,7 @@
     "name": "Stone Engineering & Architecture DPC",
     "name_nyu": "ENGR",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "MaterialsTesting)": {
         "0": [
@@ -32754,7 +32754,7 @@
     "name": "Sustainable Engineering Lab",
     "name_nyu": "ENGR LAB",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Mechanics)": {
         "0": [
@@ -32883,7 +32883,7 @@
     "name": "Lincoln Tunnel Administration Building",
     "name_nyu": "East Admin",
     "city": "Weehawken",
-    "district": null,
+    "borough": null,
     "rooms": {
       "A4-001)": {
         "0": [
@@ -33264,7 +33264,7 @@
     "name": "NYU Steinhardt, East Building",
     "name_nyu": "East Building",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "207": {
         "0": [
@@ -33977,7 +33977,7 @@
     "name": "NYU Steinhardt, East Building",
     "name_nyu": "Education Building",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "1077H": {
         "0": [
@@ -36502,7 +36502,7 @@
     "name": "Computer Lab",
     "name_nyu": "Eng Computer Lab",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "A1-002)": {
         "0": [
@@ -36643,7 +36643,7 @@
     "name": "Columbia University - Department of Electrical Engineering",
     "name_nyu": "Eng Elec Circuit Lab",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "A1-001)": {
         "0": [
@@ -36764,7 +36764,7 @@
     "name": "NYU 404 Fitness",
     "name_nyu": "Fitness Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2)": {
         "0": [
@@ -36837,7 +36837,7 @@
     "name": "NYU Global Center for Academic and Spiritual Life",
     "name_nyu": "Global Center for Academic & Spiritual Life, 238 Thompson Street",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "261": {
         "0": [
@@ -38498,7 +38498,7 @@
     "name": "Kimmel Center for University Life",
     "name_nyu": "Helen and Martin Kimmel University Center, 60 Washington Sq South",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "SKIRB": {
         "0": [
@@ -38567,7 +38567,7 @@
     "name": "Kaufman Management Center",
     "name_nyu": "Henry Kaufman Management Education Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "1-70": {
         "0": [
@@ -40920,7 +40920,7 @@
     "name": "New York Institute for the Humanities",
     "name_nyu": "Humanities",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "A6-004)": {
         "0": [
@@ -40985,7 +40985,7 @@
     "name": "Institute for the Study of the Ancient World",
     "name_nyu": "Institute for the Study of the Ancient World",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "202": {
         "0": [
@@ -41174,7 +41174,7 @@
     "name": "Institute of French Studies",
     "name_nyu": "Institute of French Studies",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "111": {
         "0": [
@@ -41303,7 +41303,7 @@
     "name": "Glucksman Ireland House",
     "name_nyu": "Ireland House",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "101": {
         "0": [
@@ -41512,7 +41512,7 @@
     "name": "Furman Hall",
     "name_nyu": "J Furman Hall",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "310": {
         "0": [
@@ -41777,7 +41777,7 @@
     "name": "NYU Jacobs Academic Building",
     "name_nyu": "Jacobs Academic Building",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "473": {
         "0": [
@@ -42982,7 +42982,7 @@
     "name": "Hagop Kevorkian Center for Near Eastern Studies",
     "name_nyu": "KEVO Library",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Ground Floor": {
         "0": [
@@ -43047,7 +43047,7 @@
     "name": "Hagop Kevorkian Center for Near Eastern Studies",
     "name_nyu": "Kevorkian Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "LL1": {
         "0": [
@@ -43200,7 +43200,7 @@
     "name": "Kimball Hall",
     "name_nyu": "Kimball Hall",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "211W": {
         "0": [
@@ -44213,7 +44213,7 @@
     "name": "Kimmel Center for University Life",
     "name_nyu": "Kimmel University Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "604": {
         "0": [
@@ -44582,7 +44582,7 @@
     "name": "King Juan Carlos I of Spain Center",
     "name_nyu": "King Juan Carlos Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "109": {
         "0": [
@@ -45199,7 +45199,7 @@
     "name": "NYU LaGuardia Student Technology Center and Computer Lab",
     "name_nyu": "LaGuardia Co",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "111": {
         "0": [
@@ -45268,7 +45268,7 @@
     "name": "Meyer Hall",
     "name_nyu": "Meyer Hall",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "121": {
         "0": [
@@ -46345,7 +46345,7 @@
     "name": "Multipurpose field",
     "name_nyu": "Multipurpose",
     "city": null,
-    "district": "Queens",
+    "borough": "Queens",
     "rooms": {
       "C2)": {
         "0": [
@@ -46410,7 +46410,7 @@
     "name": "Kimmel Pavilion",
     "name_nyu": "NYU Kimmel Pavilion",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Manhattan": {
         "0": [
@@ -46467,7 +46467,7 @@
     "name": "FINK Children's Ambulatory Care Center",
     "name_nyu": "NYU Langone Fink",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Manhattan": {
         "0": [
@@ -46532,7 +46532,7 @@
     "name": "NYU Langone Health",
     "name_nyu": "NYU Langone Hospital",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "NYU Langone Hospital-Brooklyn": {
         "0": [
@@ -46589,7 +46589,7 @@
     "name": "Perlmutter Cancer Center",
     "name_nyu": "NYU Langone Infusion Center 34",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "NYU Langone Infusion Center 34": {
         "0": [
@@ -46650,7 +46650,7 @@
     "name": "NYU Langone Laura and Isaac Perlmutter Cancer Center",
     "name_nyu": "NYU Langone Infusion Center 38",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "NYU Langone Infusion Center 38": {
         "0": [
@@ -46715,7 +46715,7 @@
     "name": "NYU Langone Hospital Long Island",
     "name_nyu": "NYU Langone Long Island",
     "city": "Mineola",
-    "district": null,
+    "borough": null,
     "rooms": {
       "NYU Langone Long Island": {
         "0": [
@@ -46772,7 +46772,7 @@
     "name": "NYU Langone Orthopedic Hospital",
     "name_nyu": "NYU Langone Orthopedic C4C/IC/",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "NYU Langone Orthopedic C4C/IC/": {
         "0": [
@@ -46837,7 +46837,7 @@
     "name": "NYU Langone Orthopedic Hospital",
     "name_nyu": "NYU Langone Orthopedic Hospita",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "NYU Langone Orthopedic Hospita": {
         "0": [
@@ -46894,7 +46894,7 @@
     "name": "NYU Radiation Oncology Associates",
     "name_nyu": "NYU Langone Rad Energy Buildi",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "NYU Langone Rad. Energy Buildi": {
         "0": [
@@ -46955,7 +46955,7 @@
     "name": "NYU Radiation Oncology Associates",
     "name_nyu": "NYU Langone Radiation Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "NYU Langone Radiation Center": {
         "0": [
@@ -47020,7 +47020,7 @@
     "name": "Tisch Hospital",
     "name_nyu": "NYU Langone Tisch Hospital",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Ma": {
         "0": [
@@ -47077,7 +47077,7 @@
     "name": "New York University SPS Midtown Center",
     "name_nyu": "NYU Midtown Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "1013": {
         "0": [
@@ -50158,7 +50158,7 @@
     "name": "No Standing NYC",
     "name_nyu": "No",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {}
   },
   "Off": {
@@ -50170,7 +50170,7 @@
     "name": "Off-White\u2122 EM PTY Gallery",
     "name_nyu": "Off",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Off-Campus": {
         "0": [
@@ -50251,7 +50251,7 @@
     "name": "Riverbank State Park Outdoor Running Track",
     "name_nyu": "Outdoor Track",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Outdoor Track": {
         "0": [
@@ -50316,7 +50316,7 @@
     "name": "Ironbound Performance Athletics",
     "name_nyu": "Performance Gym",
     "city": "Jersey City",
-    "district": null,
+    "borough": null,
     "rooms": {
       "C2) Court 1": {
         "0": [
@@ -50433,7 +50433,7 @@
     "name": "New York University Pless Hall",
     "name_nyu": "Pless Annex",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "220": {
         "0": [
@@ -50858,7 +50858,7 @@
     "name": "New York University Pless Hall",
     "name_nyu": "Pless Building",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Acting Lb)": {
         "0": [
@@ -51055,7 +51055,7 @@
     "name": "New York University Pless Hall",
     "name_nyu": "Pless Hall",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Rom 785": {
         "0": [
@@ -51132,7 +51132,7 @@
     "name": "NewYork-Presbyterian / Weill Cornell Medical Center",
     "name_nyu": "Presbyterian Cornell",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Mnhttn": {
         "0": [
@@ -51189,7 +51189,7 @@
     "name": "NewYork-Presbyterian Morgan Stanley Children's Hospital Emergency Department",
     "name_nyu": "Presbyterian Morgan Stanley",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Presbyterian Morgan Stanley": {
         "0": [
@@ -51246,7 +51246,7 @@
     "name": "Central Rock Gym",
     "name_nyu": "Rock Climbing Wall",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2)": {
         "0": [
@@ -51311,7 +51311,7 @@
     "name": "Rogers Hall",
     "name_nyu": "Rogers Hall",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "200": {
         "0": [
@@ -53508,7 +53508,7 @@
     "name": "Rubin Hall",
     "name_nyu": "Rubin Hall",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "101": {
         "0": [
@@ -54133,7 +54133,7 @@
     "name": "New York University",
     "name_nyu": "SH 1555 Century Ave",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "101": {
         "0": [
@@ -58798,7 +58798,7 @@
     "name": "Saadiyat Beach Golf Club",
     "name_nyu": "Saadiyat Beach Golf Course",
     "city": "\u0623\u0628\u0648 \u0638\u0628\u064a",
-    "district": "\u062c\u0632\u064a\u0631\u0629 \u0627\u0644\u0633\u0639\u062f\u064a\u0627\u062a",
+    "borough": "\u062c\u0632\u064a\u0631\u0629 \u0627\u0644\u0633\u0639\u062f\u064a\u0627\u062a",
     "rooms": {
       "Saadiyat Beach Golf Course": {
         "0": [
@@ -58863,7 +58863,7 @@
     "name": "Sarah Lawrence College",
     "name_nyu": "Sarah Lawrence Col",
     "city": "Bronxville",
-    "district": null,
+    "borough": null,
     "rooms": {
       "Bronxville": {
         "0": [
@@ -58940,7 +58940,7 @@
     "name": "Tribeca Screening Room",
     "name_nyu": "Screening",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "": {
         "0": [
@@ -59021,7 +59021,7 @@
     "name": "Silver Center for Arts and Science",
     "name_nyu": "Silver Center",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "101A": {
         "0": [
@@ -62842,7 +62842,7 @@
     "name": "Memorial Sloan Kettering Cancer Center New York",
     "name_nyu": "Sloan Kettering Chemo OP",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Sloan Kettering Chemo OP": {
         "0": [
@@ -62907,7 +62907,7 @@
     "name": "Social Science Research Council",
     "name_nyu": "Social Science",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "A5-001)": {
         "0": [
@@ -63608,7 +63608,7 @@
     "name": "National Institute of Social Sciences",
     "name_nyu": "Social Science 019",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Social Science 019": {
         "0": [
@@ -63701,7 +63701,7 @@
     "name": "SoulCycle NOHO",
     "name_nyu": "Spin Studio",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2-W102)": {
         "0": [
@@ -63766,7 +63766,7 @@
     "name": "Squash courts",
     "name_nyu": "Squash Courts",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2) Court 1": {
         "0": [
@@ -63831,7 +63831,7 @@
     "name": "St Thomas Aquinas RC Church",
     "name_nyu": "St Thomas Aq",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "Rockland Cnty": {
         "0": [
@@ -63900,7 +63900,7 @@
     "name": "Stephen D. Hassenfeld Children's Center for Cancer & Blood Disorders",
     "name_nyu": "Stephen D Hassenfeld Children",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Stephen D. Hassenfeld Children": {
         "0": [
@@ -63965,7 +63965,7 @@
     "name": "5718 2nd Ave",
     "name_nyu": "Sunset Park 5718 Second Avenue",
     "city": null,
-    "district": "Brooklyn",
+    "borough": "Brooklyn",
     "rooms": {
       "Sunset Park 5718 Second Avenue": {
         "0": [
@@ -64030,7 +64030,7 @@
     "name": "Hudson River Park Tennis Courts",
     "name_nyu": "Tennis Courts",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2)": {
         "0": [
@@ -64095,7 +64095,7 @@
     "name": "Institute of Fine Arts, New York University",
     "name_nyu": "The Institute of Fine Arts",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "110": {
         "0": [
@@ -64328,7 +64328,7 @@
     "name": "Tisch Hall (TISC)",
     "name_nyu": "Tisch Hall",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "200": {
         "0": [
@@ -66617,7 +66617,7 @@
     "name": "Stanley M. Isaacs Neighborhood Center",
     "name_nyu": "VNS Stanley Isaacs",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "Manhattan": {
         "0": [
@@ -66678,7 +66678,7 @@
     "name": "87 E 42nd St Vanderbilt Hall",
     "name_nyu": "Vanderbilt Hall",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "216": {
         "0": [
@@ -66747,7 +66747,7 @@
     "name": "Warren Weaver Hall (CIWW)",
     "name_nyu": "Warren Weaver Hall",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "101": {
         "0": [
@@ -67584,7 +67584,7 @@
     "name": "Waverly Building, NYU",
     "name_nyu": "Waverly Building",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "268": {
         "0": [
@@ -67725,7 +67725,7 @@
     "name": "The American Musical and Dramatic Academy Admin Office",
     "name_nyu": "West Admin",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "A3-001)": {
         "0": [
@@ -68054,7 +68054,7 @@
     "name": "P.S./M.S. 004 Crotona Park West",
     "name_nyu": "West Administration 004",
     "city": null,
-    "district": "The Bronx",
+    "borough": "The Bronx",
     "rooms": {
       "West Administration 004": {
         "0": [
@@ -68147,7 +68147,7 @@
     "name": "Woolworth Bldg",
     "name_nyu": "Woolworth Building",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "213": {
         "0": [
@@ -69708,7 +69708,7 @@
     "name": "Modo Yoga NYC",
     "name_nyu": "Yoga Studio",
     "city": "New York",
-    "district": "Manhattan",
+    "borough": "Manhattan",
     "rooms": {
       "C2-W101)": {
         "0": [
