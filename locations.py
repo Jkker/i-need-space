@@ -65,6 +65,7 @@ places_cache = json.load(open('data/places_cache.json', 'r'))
 
 places_error = json.load(open('data/places_error.json', 'r'))
 
+new_cache = {}
 
 def get_city_district(address_components):
     city, district = None, None
@@ -86,6 +87,7 @@ def find_place(place, catch_error=True):
         return None
 
     if place in places_cache:
+        new_cache[place] = places_cache[place]
         return places_cache[place]
 
     else:

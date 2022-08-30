@@ -3,7 +3,7 @@ import re
 from datetime import datetime, timedelta
 from collections import defaultdict
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from locations import building_normalizer, find_place, places_cache, places_error
+from locations import building_normalizer, find_place, places_cache, places_error, new_cache
 from tqdm import tqdm
 from utils import dump_json
 
@@ -15,6 +15,16 @@ INVALID_CAMPUS = [
     'Off Campus', 'Online', 'Distance Learning/Synchronous',
     'Distance Learning/Asynchronous'
 ]
+
+VALID_CAMPUS = [
+    "Washington Square", "Dental Center", "Brooklyn Campus",
+    "Midtown Center", "Woolworth Bldg.-15 Barclay St", "Abu Dhabi",
+    "Hosp. for Joint Diseases", "Medical Center", "Inst. of Fine Arts",
+    "NYU Abu Dhabi (Global)", "Shanghai",
+    "London (TSOA)", "NYU New York (Global)", "ePoly",
+    "St. Thomas Aquinas College", "Sarah Lawrence"
+]
+default_campus = ['Washington Square', 'Brooklyn Campus', 'NYU New York (Global)']
 
 normalize_building = building_normalizer()
 
@@ -71,19 +81,19 @@ def add_to_schedule(schedule, location_str, meetings, campus):
             schedule[location_name]["rooms"][room][weekday].add((start, end))
 
 
-def create_schedule(data):
+def create_schedule(data, campus=default_campus):
     print('Creating schedule...')
     schedule = recursively_default_dict()
     for course in tqdm(data):
         try:
             for section in course['sections']:
-
-                add_to_schedule(schedule, section['location'],
-                                section['meetings'], section['campus'])
-                if not section.get('recitations'): continue
-                for recitation in section['recitations']:
-                    add_to_schedule(schedule, recitation['location'],
-                                    recitation['meetings'], section['campus'])
+                if section['campus'] in campus:
+                    add_to_schedule(schedule, section['location'],
+                                    section['meetings'], section['campus'])
+                    if not section.get('recitations'): continue
+                    for recitation in section['recitations']:
+                        add_to_schedule(schedule, recitation['location'],
+                                        recitation['meetings'], section['campus'])
         except Exception as e:
             raise e
             # print('Error:', course['name'])
@@ -114,10 +124,10 @@ def get_time_slots(times, start, end, min_duration):
     return time_slots
 
 
-def main(filepath, start="08:00", end="22:00", min_duration=15):
+def main(filepath, start="08:00", end="22:00", min_duration=15, campus=default_campus):
     with open(filepath) as data_file:
         data = json.load(data_file)
-        schedule = create_schedule(data)
+        schedule = create_schedule(data, campus=campus)
         availabilities = recursively_default_dict()
         for building in sorted(schedule.keys()):
             rooms = schedule[building]['rooms']
@@ -174,6 +184,13 @@ if __name__ == '__main__':
         formatter_class=ArgumentDefaultsHelpFormatter,
         description=
         "Calculates when each room is available based on the class schedule")
+    parser.add_argument('--campus',
+                        dest='campus',
+                        required=False,
+                        type=str,
+                        nargs='+',
+                        default=default_campus,
+                        help="campus to retain in the output")
     parser.add_argument('-t',
                         '--time-range',
                         dest='time',
@@ -206,7 +223,8 @@ if __name__ == '__main__':
     schedule, availabilities = main(filepath=args.filepath,
                                     start=args.time[0],
                                     end=args.time[1],
-                                    min_duration=args.min_duration)
+                                    min_duration=args.min_duration,
+                                    campus=args.campus)
 
     print('🔎 Found', len(availabilities.keys()), 'locations')
     filename = args.filepath.split("/")[-1]
@@ -219,3 +237,4 @@ if __name__ == '__main__':
     dump_json(availabilities, output_filename)
     dump_json(places_cache, 'data/places_cache.json')
     dump_json(places_error, 'data/places_error.json')
+    dump_json(new_cache, 'data/places_cache_new.json')

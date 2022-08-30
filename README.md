@@ -62,6 +62,8 @@ python vacancy-calculator.py [-h] [-t TIME TIME] [-m MIN_DURATION] [-s] [-o OUTP
 ### Options
 ```text
   -h, --help            show this help message and exit
+  --campus CAMPUS [CAMPUS ...]
+                        campus to retain in the output (default: ['Washington Square', 'Brooklyn Campus', 'NYU New York (Global)'])
   -t TIME TIME, --time-range TIME TIME
                         range of times to search for available times (default: ('08:00', '22:00'))
   -m MIN_DURATION, --min-duration MIN_DURATION
