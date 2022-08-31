@@ -115,3 +115,10 @@ python vacancy-calculator.py --time-range '08:00', '22:00' --min-duration 15 --s
   }
 }
 ```
+
+## Installation
+
+```sh
+pip install -r requirements.txt
+```
+
